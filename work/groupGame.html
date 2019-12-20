@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/JavaScript" rel="script" href="groupGame.js">
+    <div>
+        <button  id="start" onclick="start()">Start</button>
+        <button  id="clear" onclick="clears()">Clear</button>
+      </div>
+  </head>
+
+<body>
+    <h1>Salan's Quiz Game!<h1>
+   <div id="quiz" style="display:none">
+<!--       <form  id="question1"> -->
+        <div >
+            <label for="Question 1">What is 7! ?</label>
+            <input type="number" class="form-control" id="answer1" placeholder="Enter your Answer">
+            <button id="check1" onclick="check1()">Check</button>
+            </div>
+
+        <div >
+            <label for="Question 2">1,1,2,3,5,8,13...What comes next in this Fibonacci Sequence?</label>
+            <input type="number" class="form-control" id="answer2" placeholder="Feed Me a Number">
+          <button id="check2" onclick="check2()" >Check</button>
+        </div>
+        <div>
+            <label for="Question 3">What is 150 modulo 9?</label>
+            <input type="number" class="form-control" id="answer3" placeholder="Feed Me a Number">
+          <button id="check3" onclick="check3()">Check</button>
+        </div>
+<!--      </form> -->
+    </div>
+</body>
+</html>

@@ -1,5 +1,5 @@
 header, footer{
-  background-color: #fff8ac;
+  background-color: #ffe67c;
   font: sans-serif;
   color: black;
   height: 40px;
@@ -8,20 +8,32 @@ header, footer{
 
 }
 body{
-  background-color: #a088c1
+  background-color: #7dbff2;
 }
 
-nav{
+/* nav{
   border-top: thick #5b7d87 dotted;
   border-bottom: thick #5b7d87 dotted;
-  padding-top: 40px;
-  padding-bottom: 50px;
-}
-nav .btn {
-  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+} */
+ nav {
+  /* background-color: black; */
   color: #fef9ff;
 }
-nav .btn:hover {
+nav:hover {
   font-weight: bold;
   color: pink;
 }
+
+.jumbotron{
+  background-color: #f979b3
+}
+/* .carousel-inner{
+  width:550px;
+  height:650px;
+
+} */
+/* .container-fluid{ */
+  /* padding:0px;
+} */

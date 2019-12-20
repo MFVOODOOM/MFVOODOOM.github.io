@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/JavaScript" src="displayEvens.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <h1>Display Evens!!<h1>
+        <div class="start">
+            <label for="startNumber">Starting Number: </label>
+            <input type="number"  id="startNumberInput" placeholder="Feed Me a Number">
+        </div>
+
+        <div class="end">
+            <label for="endNumber">Ending Number: </label>
+            <input type="number" id="endNumberInput" placeholder="Feed Me a Number">
+        </div>
+
+        <div class="step">
+            <label for="step">Step: </label>
+            <input type="number" id="stepInput" placeholder="Feed Me a Number">
+        </div>
+
+        <button type="display" id="displayButton" class="btn" onclick="solve()">Display Evens</button>
+
+        <div id="results">
+
+        </div>
+
+
+</body>
+</html>
