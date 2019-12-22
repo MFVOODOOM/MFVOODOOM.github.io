@@ -10,8 +10,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
+      <script type="text/JavaScript" src="contact.js"></script>
       <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
-      <link rel="JavaScript" href="contact.js"/>
+
       <title>Contact Us!</title>
     </head>
 
@@ -28,7 +29,6 @@
       <hr />
     </nav>
 
-  <form action="submit.html" method="POST" >
   <label for="name">Name:</label><br />
   <input type="text" id="name" name="name"><br />
   <label for="email">Email:</label><br />
@@ -49,7 +49,7 @@
 
   <label for="info">Additional Information:</label><br />
   <textarea id="info" name="info"></textarea>
-  <!-- <input type="submit" name="submit" value="Submit"> -->
+  <input type="submit" name="submit" value="Submit">
 
   <br />
   <br />
@@ -73,12 +73,8 @@
   <input type="checkbox" id="friday" name="day of the week" value="friday">
   <label for="friday">F</label>
 
-  <br />
-  <br />
 
-  <input type="submit"/><br />
-  </form>
-  <hr />
+  <button type ="display" id=butt class="btn" onclick="check()">BYE!</button>
 
   <footer>
     <p>420 Manhattan Ave. New York, NY 10026</p>

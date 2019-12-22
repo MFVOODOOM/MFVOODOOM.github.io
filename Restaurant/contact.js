@@ -1,8 +1,12 @@
+console.log("hello world");
 
 function check(){
-    var name = document.getElementbyId("name").value
+    console.log("inside check function");
+    var name = document.getElementById("name").value
     if (name == ""){
-        getElementById('name').style.borderColor = "red";
+        // getElementById('name').style.borderColor = "red";
+        alert("Enter a name");
           return false;
       }
+      return false;
   }
